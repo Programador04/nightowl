@@ -108,6 +108,7 @@ function enableLightMode() {
 
 function toggleMode() {
     mode = mode === DARK ? LIGHT : DARK
+    document.getElementById("ph").style.backgroundImage="url(images/img.jpg)"
     updateMode()
 }
 
